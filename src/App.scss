@@ -1,0 +1,17 @@
+@import 'components/styles/Display.scss';
+@import 'components/styles/Interface.scss';
+*,
+html,
+body {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    .main {
+        width: 100vw;
+        height: 100vh;
+        background-color: white;
+        display: table;
+        justify-content: center;
+        align-items: center;
+    }
+}
